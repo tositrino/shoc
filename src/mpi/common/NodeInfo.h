@@ -8,6 +8,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <cassert>
+#include <unistd.h>
 
 using namespace std;
 

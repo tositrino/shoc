@@ -17,7 +17,7 @@ OpenCLStencilFactory<T>::BuildStencil( const OptionParser& options )
     T wDiagonal;
     size_t lRows;
     size_t lCols;
-    ExtractOptions( options,
+    this->ExtractOptions( options,
                     wCenter,
                     wCardinal,
                     wDiagonal,
